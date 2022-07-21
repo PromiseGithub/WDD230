@@ -1,8 +1,13 @@
+body,
+html {
+  font-family: "Montserrat", serif;
+  margin: 0;
+}
+
 body {
-    background-color: #DFD7D2;
+    background-color: white;
     margin: .7rem .2rem;
     padding: .9rem;
-    font-family: 'Quicksand', 'sans-serif';
 }
 
 .container {
@@ -16,7 +21,7 @@ body {
 
 nav {
     margin-left: 1%;
-    background-color: rgb(102, 94, 79);
+    background-color: rgb(0, 90, 136);
     box-shadow: 0px 3px 3px gray;
     font-family: 'Caudex', 'serif';
 }
@@ -28,7 +33,7 @@ nav {
 
 footer {
     text-align: left;
-    background-color: rgb(102, 94, 79);
+    background-color: rgb(0, 90, 136);
     color: #DFD7D2;
     padding: .5rem;
     bottom: 0;
@@ -107,7 +112,7 @@ header h1 a {
 }
 
 .activepage {
-    background-color: #DFD7D2;
+    background-color: rgb(0,32,67);
     border-radius: 5px;
     color: black;
 }
@@ -119,7 +124,7 @@ header h1 a {
 }
 
 .primaryNav li {
-    background-color: rgb(102, 94, 79);
+    background-color: rgb(0, 90, 136);
 
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -307,7 +312,7 @@ aside {
 }
 
 .button {
-    background-color: rgb(102, 94, 79);
+    background-color: rgb(0, 90, 136);
     border-radius: 5px;
     box-shadow: 0px 3px 3px gray;
     color: white;
@@ -385,12 +390,12 @@ form label.top input, form label.top select, form textarea {
     color: rgb(71, 67, 58);
     width: 90%;
     max-width: 20rem;
-    background-color: rgba(102, 94, 79, 0.2);
+    background-color: rgb(0, 90, 136);
 }
 
 form input.submitBtn {
     border: none;
-    background-color: rgb(102, 94, 79);
+    background-color: rgb(0, 90, 136);
     color: white;
     border-radius: 4px;
     padding: .75rem;
@@ -402,11 +407,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    background-color: rgba(178, 35, 35, 0.1);
+    background-color: rgb(0, 90, 136);
 }
 
 form label.top input:required:valid {
-    background-color: rgba(102, 94, 79, 0.2);
+    background-color: rgb(0, 90, 136);
 }
 
 #hint {
@@ -426,7 +431,7 @@ form h2 {
 .thankyou h2 {
     text-align: center;
     color: rgb(71, 67, 58);
-    border-bottom: 1px solid rgb(71, 67, 58);
+    border-bottom: 1px solid rgb(0, 90, 136);
     padding-bottom: 1rem;
 }
 
@@ -450,7 +455,7 @@ p {
 
 .service-description {
     font-size: .9rem;
-    border-bottom: 2px solid rgb(71, 67, 58);
+    border-bottom: 2px solid rgb(0, 90, 136);
     padding-bottom: .7rem;
 }
 
@@ -469,7 +474,7 @@ p {
 
 .amenities-description {
     font-size: .9rem;
-    border-bottom: 2px solid rgb(71, 67, 58);
+    border-bottom: 2px solid rgb(0, 90, 136);
     padding-bottom: .7rem;
 }
 
@@ -522,7 +527,7 @@ a.toggle {
 /*------------ Contact Us ----------------*/
 .contact {
     margin: 2rem 0;
-    border: 1px double rgb(102, 94, 79);
+    border: 1px double rgb(0, 90, 136);
     border-radius: 10px;
     padding: .5rem 2%;
     font-family: 'Quicksand', 'sans-serif';
@@ -535,3 +540,37 @@ a.toggle {
     margin-top:15%;
 }
 
+.fLogo {
+    width: 150px;
+    height: auto;
+}
+
+.s_logo {
+    width: 30px;
+    height: auto;
+    padding: 2em 5px 0 0;
+}
+
+header span {
+    color: #4caf50;
+  }
+  
+  header h1 {
+    font-size: 50px;
+    font-weight: 700;
+    cursor: default;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  .tlogo {
+    padding-left: 50px;
+  }
+
+  #heroB {
+    position: absolute;
+    top: 40px;
+    right: 16px;
+  }
