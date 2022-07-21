@@ -1,0 +1,129 @@
+
+main {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 0 0 10px;
+}
+
+section {
+    padding: 10px;
+}
+
+.hero {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 0;
+
+}
+
+.event {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+.weather {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.join {
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+}
+
+.news {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+}
+
+.spotlight {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+.third-spot {
+    display: block;
+}
+
+.secondchild {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+    color: white;
+}
+
+.icon {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: right;
+}
+
+section nav {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+}
+
+#m-selection {
+    display: inline;
+}
+
+form {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.m-card {
+    display: inline;
+    color: white;
+}
+
+.none {
+    background-color: green;
+}
+
+.bronze {
+    background-color: #6b511a;
+}
+
+.silver {
+    background-color: silver;
+    color: black;
+}
+
+.gold {
+    background-color: #db8e1e;
+}

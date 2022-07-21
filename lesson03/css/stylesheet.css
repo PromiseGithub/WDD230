@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trirong", serif;
+}
+
+header {
+    text-align: center;
+
+}
+
+main {
+    padding: 0 2em 2em 2em;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #304c89;
+    padding: 3px;
+}
+
+h2 {
+    color: #304c89;
+}
+ul {
+    list-style-type: none;
+    background-color: #304c89;
+    padding: 0;
+}
+
+ul li {
+    border-bottom: 2px solid white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.active, .active a {
+    background-color: white;
+    color: #2a260f;
+    font-size: large;
+}
+
+a:hover {
+    background-color: white;
+    color: #304c89;
+}
+
+footer {
+    text-align: center;
+    background-color: #304c89;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+    color: #304c89;
+    padding: 0;
+    margin: 0 0 2px 0;
+}
+
+section div {
+    padding: 0 2em 0.5em 2em;
+    background-color: rgb(240, 227, 227);
+    text-align: center;
+    margin: 0.5em;
+}
+
+div h4 {
+    color: #304c89;
+    padding: 0.3em 0 0 0 ;
+    margin: 0;
+
+}
+
+div p {
+    padding: 0.5em 0 0 0;
+    margin: 0;
+}
+
+.body {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+}
+
+.m-back {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #304c89;
+}
+
+.m-text {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+}
+
+.optional {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    background-color: rgb(240, 227, 227);
+}
+
+.headers {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #304c89;
+}
+
+.p-color {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+}
+
+.f-back {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #304c89;
+}
+
+.f-text {
+    border-style: groove;
+    padding: 20px 20px 20px 20px;
+    margin: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.box {
+    text-align: center;
+    width: 320px;
+    margin: 0 auto 0 auto;
+    border: 1px solid gray;;
+}
+
+@media screen and (min-width: 600px) {
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul li {
+        flex: 1 1 auto;
+    }
+}

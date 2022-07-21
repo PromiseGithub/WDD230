@@ -1,0 +1,24 @@
+main{
+    justify-content: center;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 1px;
+    padding: 10px;
+    background-color: #B9B9CC;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

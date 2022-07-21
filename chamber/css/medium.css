@@ -1,0 +1,118 @@
+
+/* .navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; change state in small view */
+    /* flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+} */
+
+
+.secondchild {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+section nav {
+    grid-column-start: 8;
+}
+
+.text {
+    grid-column-start: 2;
+    text-align: left;
+}
+
+.icon {
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+
+.pCenter {
+    text-align: center;
+    margin: 10px;
+}
+
+.footer1 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+}
+
+.fLeft {
+    text-align: left;
+
+}
+
+/* New changes below */
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 70% 30%;
+    margin: 0 0 0 10px;
+}
+
+
+section {
+    padding: 10px;
+}
+
+.hero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0;
+
+}
+
+.event {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+}
+
+
+.weather {
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.join {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: block;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+}
+
+.news {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+}
+
+.spotlight {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+.third-spot {
+    display: none;
+}
