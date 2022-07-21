@@ -6,12 +6,13 @@ weatherRequest.send();
 let currenttemp, mph = '';
 weatherRequest.onload = function () {
     let weatherData = (weatherRequest.response);
+    console.log(weatherData);
     currenttemp = parseFloat(Math.round(weatherData.main.temp));
     mph = parseFloat(weatherData.wind.speed);
     document.getElementById("bostonCurrentTemp").innerHTML = currenttemp;
     document.getElementById("bostonMph").innerHTML = mph;
     document.getElementById("bostonHumidity").innerHTML = weatherData.main.humidity;
-    document.getElementById("bostonCurrently").innerHTML = weatherData.weather[0].main;
+    document.getElementById("bostonCurrently").innerHTML = weatherData.weather[0].description;
 
     //set variables to help formula run more smoothly
     let speed = Math.pow(mph, 0.16);

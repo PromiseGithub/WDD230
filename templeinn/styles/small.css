@@ -574,3 +574,8 @@ header span {
     top: 40px;
     right: 16px;
   }
+
+  .weather {
+    grid-column-start: 4;
+
+  }
